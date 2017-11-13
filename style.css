@@ -1,0 +1,29 @@
+
+body {
+    color: #ffffff;
+    font-family: Consolas,monaco,monospace; 
+    background-color: #555555;
+    font-size: 9pt;   
+}
+
+h1 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+canvas {border: 1px solid white; }
+
+.loadDialog{  
+    text-align: center;
+    position: absolute;
+    float: left;
+    bottom: 120px;
+    left: 122px;
+    width: 300px;
+    height: 60px;
+    border: 1px solid white;
+    background-color: #333333;
+    
+}
+.infobox {  
+    font-size: 8pt;   
+}
+

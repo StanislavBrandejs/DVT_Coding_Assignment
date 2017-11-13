@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!--
+DVT_Coding_Assignment, Bc. Stanislav Brandejs, 2017
+-->
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css" type="text/css"/>
+<link rel="icon" href="data:;base64,iVBORw0KGgo=">
+        <title>DVT_Coding_Assignment</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">      
+    </head>
+    <body>
+ 
+        <h1 id="Headline">DVT_Coding_Assignment</h1> 
+        
+        <canvas id="canvas1" width="300" height="240"></canvas>    
+        <script src="randomDrawings.js"></script>  
+        <p class="infobox">
+            [Move shape with drag and drop]...[Select shape with LMB]...[Delete selected shapes with RMB]...[current coordinates: <span id="mousePosition"></span>]...[Array Length: <span id="objCount">0</span>]</p>
+        <p class="buttonBox">
+            <button id="btn1" type="button" onclick="doRectangle()">Draw Rectangle</button>     
+            <button id="btn2" type="button" onclick="doCircle()">Draw Circle</button>          
+            <button id="btn3" type="button" onclick="save()">Save</button> 
+            <button id="btn4" type="button" onclick="loadDialog()">Load</button> </p>
+        <p class="buttonBox">
+            <button id="btn5" type="button" onclick="clearCanvas()">Clear</button>
+            <button id="btn6" type="button" onclick="loop()">Loop</button>
+            <button id="btn7" type="button" onclick="stopLoop()">Stop</button>
+    </p>
+    </body>
+</html>
