@@ -1,2 +1,2 @@
 # DVT_Coding_Assignment
-Web application that allows to create, draw, move and delete random geometric shapes based on pure javascript. 
+Very simple drawing application, runnable in browser, that allow users to create, move and delete random geometric shapes, save and load users work. Application is based on pure javascript, utilizing html5 canvas element. 
